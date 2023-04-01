@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  max-width: 130rem;
+  max-width: 90rem;
   margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .sub-header h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-family: Playfair Display;
 }
 
@@ -54,7 +54,7 @@ body {
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   cursor: pointer;
   text-decoration: none;
@@ -74,10 +74,10 @@ body {
 
 .contact-us {
   text-align: center;
-  margin-top: 6rem;
-  font-size: 2.5rem;
+  margin-top: 5rem;
+  font-size: 2rem;
   background-color: #fff;
-  height: 15rem;
+  height: 10rem;
   font-family: Playfair Display;
 }
 
@@ -93,14 +93,14 @@ body {
 .get-in-touch-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 95rem;
+  max-width: 85rem;
   margin: 0 auto;
   background-color: #edebe5;
   padding: 10rem 2rem;
 }
 
 .get-in-touch-heading {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 800;
   margin-bottom: 2rem;
   font-family: Playfair Display;
@@ -114,14 +114,14 @@ body {
 
 .cta label {
   display: block;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1.2rem;
   font-family: Fira sans;
 }
 
 .input-1 {
   width: 100%;
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 5px;
   border-width: 0.1px;
   border-color: rgb(214, 211, 211);
@@ -139,7 +139,7 @@ body {
 
 .btn {
   display: inline-block;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 600;
   font-family: Fira sans;
   background-color: #000;
@@ -151,6 +151,23 @@ body {
 
 .btn:hover {
   background-color: #000;
+}
+
+.line-top {
+  margin: auto;
+  height: 0.3rem;
+  width: 15rem;
+  background-color: rgb(196, 196, 196);
+  margin-top: 5rem;
+}
+
+.main-logo {
+  text-align: center;
+  background-color: #eef4f7;
+}
+
+.logo {
+  width: 60%;
 }
 
 /* ********************/

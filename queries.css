@@ -1,4 +1,23 @@
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+/*****************************************/
+/* BELOW 1200px (75*16) SMALLER DESKTOPS
+/*****************************************/
+
+/* 1210 (breakpoint) / 16 (default font size) = 75.625 app 84 */
+@media (max-width: 75em) {
+  .Elo-Petroleum-logo {
+    max-width: 90rem;
+  }
+}
+
+/*****************************************/
+/* BELOW 1024 (64*16) LANDSCAPE TABLETS
+/*****************************************/
+
+/* 1024 (breakpoint) / 16 = 64 */
+
+@media (max-width: 64em) {
+  html {
+    /* 9px / 16px = 56.25%  */
+    font-size: 56.25%;
+  }
+}

@@ -20,6 +20,10 @@ body {
   margin: 0 auto;
 }
 
+*:focus {
+  outline: none;
+}
+
 /* ********************/
 /* HEADER */
 /* ******************* */
@@ -33,7 +37,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 15rem;
-  padding: 0 9.6rem;
+  padding: 0 4.8rem;
   background-color: rgb(34, 33, 33);
   color: #fff;
 }
@@ -229,8 +233,7 @@ body {
 }
 
 .cta {
-  max-width: 80rem;
-  margin: 0 auto;
+  padding: 0 20rem;
 }
 
 .cta label {
@@ -262,6 +265,7 @@ body {
 .input-3 {
   width: 70%;
   padding: 5rem;
+  border-radius: 5px;
   margin-bottom: 3rem;
   border-width: 0.1px;
   border-color: rgb(214, 211, 211);
@@ -284,6 +288,11 @@ body {
   background-color: rgb(250, 246, 246);
 }
 
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgb(187, 184, 184, 0.5);
+}
+
 /* *********************/
 /* FOOTER
 /* **********************/
@@ -294,8 +303,7 @@ body {
 }
 
 .footer-body {
-  max-width: 90rem;
-  margin: 0 auto;
+  padding: 0 20rem;
 }
 
 .footer-heading {
